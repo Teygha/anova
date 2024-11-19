@@ -1,0 +1,34 @@
+{
+  "name": "apilayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register 'test/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teygha/anova.git"
+  },
+  "author": "oghenetega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teygha/anova/issues"
+  },
+  "homepage": "https://github.com/Teygha/anova#readme",
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.9.0",
+    "@types/supertest": "^6.0.2",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
+}
